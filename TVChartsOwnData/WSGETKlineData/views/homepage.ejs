@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Chart with history</title>
+    <link rel="stylesheet" href="/css/stylesheet.css"/> 
+
+  </head>
+
+  <body onload="get()">
+    <h2>Binance DOGEUSDT Chart</h2>
+    <div id="tvchart"></div>
+    <input type="text" id="input" placeholder="TICKER">
+    <button onclick="save()">Submit</button>
+    <p id="saveText">asda</p>
+    <p id="oepnedText"></p>
+  </body>
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+  <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+  <script type="text/javascript" defer src="/js/index.js"></script>
+  <script type="text/javascript" defer src="/js/functions.js"></script>
+
+  
+</html>
